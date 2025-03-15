@@ -1,3 +1,5 @@
-export const mutations = `#graphql
-    create_user(lastName: String!,firstName: String!, email: String!, password: String! ): String
-`
+export const mutations = `
+   
+        create_user(firstName: String!, lastName: String, email: String!, password: String!, profileImageURL: String): String
+    
+`;

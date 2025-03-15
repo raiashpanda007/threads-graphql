@@ -1,6 +1,5 @@
 import { ApolloServer } from '@apollo/server';
 import { prisma } from '../lib';
-import type { CreateUser } from '../types';
 import { User } from './User/index';
 
 async function StartGraphQLServer() {
