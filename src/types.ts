@@ -6,3 +6,8 @@ export interface CreateUserPayload {
     profileImageURL?: string
 
 }
+
+export interface GenerateTokenPayload {
+    email: string
+    password: string
+}
